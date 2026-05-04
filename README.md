@@ -5,36 +5,21 @@ The Airline Management System is a desktop-based application developed using Jav
 This project demonstrates core concepts of Java Swing (GUI), Object-Oriented Programming, and Database Connectivity (JDBC).
 
 Features
-🔐 User Login System
-👤 Add Customer Details
-🛫 Book Flight Tickets
-❌ Cancel Reservations
-📄 Generate Boarding Pass
-📊 View Flight Information
-🧾 Journey Details Tracking
-🛠️ Tech Stack
+1. User Login System
+2. Add Customer Details
+3. Book Flight Tickets
+4. Cancel Reservations
+5. Generate Boarding Pass
+6. View Flight Information
+7. Journey Details Tracking
+8. Tech Stack
 
 Language: Java
 GUI: Java Swing
 Database: MySQL
 Connectivity: JDBC
-📁 Project Structure
-AirlineManagementSystem/
-│── src/airlinemanagementsystem/
-│   ├── AddCustomer.java
-│   ├── BoardingPass.java
-│   ├── BookFlight.java
-│   ├── Cancel.java
-│   ├── Conn.java
-│   ├── FlightInfo.java
-│   ├── Home.java
-│   ├── JourneyDetails.java
-│   ├── Login.java
-│
-│── build/
-│── manifest.mf
-│── build.xml
-⚙️ Setup Instructions
+
+Setup Instructions
 1. Clone / Download Project
 git clone <your-repo-link>
 2. Open in IDE
@@ -60,18 +45,21 @@ Add it to your project libraries
 Run:
 Login.java
 This will launch the main system
-🧠 Key Components
+
+Key Components
 Login.java → Entry point with authentication
 Home.java → Dashboard
 BookFlight.java → Ticket booking system
 Cancel.java → Ticket cancellation
 BoardingPass.java → Boarding pass generation
 Conn.java → Database connection handler
-⚠️ Notes
+
+Notes
 Ensure MySQL service is running before starting the app
 Update DB credentials properly
 GUI is built using Swing (desktop-based, not web)
-📌 Future Improvements
+
+Future Improvements
 Convert to web-based system (Spring Boot / React)
 Add payment gateway integration
 Improve UI/UX design
