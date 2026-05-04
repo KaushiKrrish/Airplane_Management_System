@@ -64,6 +64,5 @@ Convert to web-based system (Spring Boot / React)
 Add payment gateway integration
 Improve UI/UX design
 Add real-time flight APIs
-👨‍💻 Author
 
 Developed as a learning project for understanding Java GUI and database integration.
